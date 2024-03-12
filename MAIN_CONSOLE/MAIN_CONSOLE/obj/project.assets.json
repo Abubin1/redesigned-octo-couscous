@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v5.0": {
+      "MAIN_LIBRARY/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MAIN_LIBRARY.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MAIN_LIBRARY.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v5.0/win7-x86": {
+      "MAIN_LIBRARY/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MAIN_LIBRARY.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MAIN_LIBRARY.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MAIN_LIBRARY/1.0.0": {
+      "type": "project",
+      "path": "../MAIN_LIBRARY/MAIN_LIBRARY.csproj",
+      "msbuildProject": "../MAIN_LIBRARY/MAIN_LIBRARY.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v5.0": [
+      "MAIN_LIBRARY >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Chicken\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Chicken\\source\\repos\\TRPO_LibraryProject-main\\MAIN_CONSOLE\\MAIN_CONSOLE\\MAIN_CONSOLE.csproj",
+      "projectName": "MAIN_CONSOLE",
+      "projectPath": "C:\\Users\\Chicken\\source\\repos\\TRPO_LibraryProject-main\\MAIN_CONSOLE\\MAIN_CONSOLE\\MAIN_CONSOLE.csproj",
+      "packagesPath": "C:\\Users\\Chicken\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chicken\\source\\repos\\TRPO_LibraryProject-main\\MAIN_CONSOLE\\MAIN_CONSOLE\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Chicken\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net50"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Chicken\\source\\repos\\Work": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net50": {
+          "projectReferences": {
+            "C:\\Users\\Chicken\\source\\repos\\TRPO_LibraryProject-main\\MAIN_CONSOLE\\MAIN_LIBRARY\\MAIN_LIBRARY.csproj": {
+              "projectPath": "C:\\Users\\Chicken\\source\\repos\\TRPO_LibraryProject-main\\MAIN_CONSOLE\\MAIN_LIBRARY\\MAIN_LIBRARY.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net50": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
